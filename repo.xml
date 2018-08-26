@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+  <description>A test</description>
+  <author>Efraim Feinstein</author>
+  <website>http://test.com</website>
+  <status>alpha</status>
+  <license>Public Domain</license>
+  <copyright>false</copyright>
+  <type>application</type>
+  <target>test</target> 
+  <prepare>pre-install.xql</prepare>
+  <finish>post-install.xql</finish>
+  <permissions user="admin" password="" group="dba" mode="rw-rw-r--"/>
+</meta>
